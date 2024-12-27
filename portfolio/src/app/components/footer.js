@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="group-left">
-        <span><GitBranch/>main*</span>
+        <span>main*</span>
         <span> 0</span>
         <span> 0</span>
         <span> 1</span>
