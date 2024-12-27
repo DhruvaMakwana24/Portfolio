@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 2.5em; 
+    display: flex;
+    align-items: center; 
+    background-color: var(--bg-color-header);
+    padding: 0 1em; 
+    border-bottom: 0.0625em solid var(--border-color);
+}
+
+header svg {
+    margin-right: 0.5em;
+}
+
+nav {
+    display: flex;
+    margin-left: 0.75em;
+    flex-grow: 1; 
+    align-items: center; 
+}
+
+nav ul {
+    display: flex; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1em;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1em;
+}
+
+header .group {
+    display: flex;
+    align-items: center; /* Align dots/icons within the group */
+    gap: 0.5em; /* Space between the dots within the group */
+}
+
+header .group .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+header .group .dot.red {
+    background-color: rgb(252, 58, 58);
+}
+
+header .group .dot.green {
+    background-color: rgb(17, 159, 17);
+}
+
+header .group .dot.yellow {
+    background-color: rgb(188, 188, 77);
+}
+

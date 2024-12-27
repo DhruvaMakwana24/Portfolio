@@ -1,9 +1,11 @@
 import React from "react";
+import "../styles/header.css"
+
 
 //for visualStudio icon 
 const VisualStudioCode = props => 
 <svg viewBox="0 0 256 254" 
-    xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="1em" height="1em" preserveAspectRatio="xMidYMid" {...props}>
+    xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="1.25em" height="1.25em" preserveAspectRatio="xMidYMid" {...props}>
     <defs><linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stopColor="#FFF" />
     <stop offset="100%" stopColor="#FFF" stopOpacity={0} />
     </linearGradient><path id="a" d="M180.828 252.605a15.872 15.872 0 0 0 12.65-.486l52.501-25.262a15.94 15.94 0 0 0 9.025-14.364V41.197a15.939 15.939 0 0 0-9.025-14.363l-52.5-25.263a15.877 15.877 0 0 0-18.115 3.084L74.857 96.35l-43.78-33.232a10.614 10.614 0 0 0-13.56.603L3.476 76.494c-4.63 4.211-4.635 11.495-.012 15.713l37.967 34.638-37.967 34.637c-4.623 4.219-4.618 11.502.012 15.714l14.041 12.772a10.614 10.614 0 0 0 13.56.604l43.78-33.233 100.507 91.695a15.853 15.853 0 0 0 5.464 3.571Zm10.464-183.649-76.262 57.889 76.262 57.888V68.956Z" /></defs>
@@ -28,6 +30,11 @@ const header = () =>
             <li>...</li>
         </ul> 
     </nav>
+    <div class="group">
+        <div class="dot red"></div>
+        <div class="dot yellow"></div>
+        <div class="dot green"></div>
+    </div>
     
  </header>
 );
