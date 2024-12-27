@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/header.css"
+import "../styles/components.css"
 
 
 //for visualStudio icon 
@@ -30,10 +30,10 @@ const header = () =>
             <li>...</li>
         </ul> 
     </nav>
-    <div class="group">
-        <div class="dot red"></div>
-        <div class="dot yellow"></div>
-        <div class="dot green"></div>
+    <div className="group">
+        <div className="dot red"></div>
+        <div className="dot yellow"></div>
+        <div className="dot green"></div>
     </div>
     
  </header>

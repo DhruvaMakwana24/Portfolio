@@ -22,6 +22,10 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
+      
+      <script type="module" src="https://cdn.skypack.dev/@geist-ui/icons"></script>
+
     </html>
+    
   );
 }
