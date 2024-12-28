@@ -18,7 +18,7 @@ const VisualStudioCode = props =>
 const header = () =>
 (
  <header>
-    <VisualStudioCode></VisualStudioCode>
+    <VisualStudioCode/>
     <nav>
        <ul>
             <li>File</li>

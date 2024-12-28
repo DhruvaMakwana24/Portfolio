@@ -6,20 +6,25 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="group-left">
-        <span>main*</span>
-        <span> 0</span>
-        <span> 0</span>
-        <span> 1</span>
+        
+        <span>
+          <span className="lucide-git-branch"/> main* 
+          <span className="lucide-refresh-cw"/>
+        </span>
+        <span><span className="lucide-circle-x"/> 0</span>
+        <span><span className="lucide-triangle-alert"/> 0</span>
+
+        <span><span className="lucide-radio-tower"/> 1</span>
       </div>
-          
-    <div className="group-right">
+
+      <div className="group-right">
         <span>Spaces: 0</span>
         <span>UTF-8</span>
         <span>LF</span>
         <span>Next.js</span>
-        <span> Prettier</span>
-    </div>
-    
+        <span> <span className="lucide-check-check"/> Prettier</span>
+        <span className="lucide-bell"/>
+      </div>
     </footer>
   );
 };
