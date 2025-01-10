@@ -112,7 +112,9 @@ footer.footer {
 footer svg {
     margin-right: 0.3em; 
 }
-
+.footer img {
+    filter: brightness(0) invert(1); /* Converts black icons to white */
+  }
   
   
   

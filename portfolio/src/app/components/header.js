@@ -1,13 +1,14 @@
 import React from "react";
 import "../styles/components.css"
-import VisualStudioCode from "@/asset/visualstudio.svg"
+import Image from "next/image";
 
 
 
 const header = () =>
 (
  <header>
-    <VisualStudioCode/>
+    <Image src='/icons/visualstudio.svg' alt='visual studio' width={17}
+    height={17}/>
     <nav>
        <ul>
             <li>File</li>
