@@ -7,17 +7,17 @@ const Footer = () => {
     <footer className="footer">
       <div className="group-left">
         <span>
-          <Image src="/icons/git-branch.svg" alt="git-branch" width={17} height={17}  /> main*
+          <Image src="/icons/git-branch.svg" alt="git-branch" width={17} height={17}  />&nbsp;main*&nbsp; 
           <Image src="/icons/refresh-cw.svg" alt="refresh" width={17} height={17} />
         </span>
         <span>
-          <Image src="/icons/circle-x.svg" alt="circle-x" width={17} height={17} /> 0
+          <Image src="/icons/circle-x.svg" alt="circle-x" width={17} height={17} />&nbsp;0
         </span>
         <span>
-          <Image src="/icons/triangle-alert.svg" alt="triangle-alert" width={17} height={17} /> 0
+          <Image src="/icons/triangle-alert.svg" alt="triangle-alert" width={17} height={17} />&nbsp;0
         </span>
         <span>
-          <Image src="/icons/radio-tower.svg" alt="radio-tower" width={17} height={17} /> 1
+          <Image src="/icons/radio-tower.svg" alt="radio-tower" width={17} height={17} />&nbsp;1
         </span>
       </div>
 
@@ -27,7 +27,7 @@ const Footer = () => {
         <span>LF</span>
         <span>Next.js</span>
         <span>
-          <Image src="/icons/check-check.svg" alt="check-check" width={17} height={17} /> Prettier
+          <Image src="/icons/check-check.svg" alt="check-check" width={17} height={17} />&nbsp;Prettier
         </span>
         <Image src="/icons/bell.svg" alt="bell" width={17} height={17} />
       </div>
